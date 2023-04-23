@@ -38,7 +38,6 @@ public class PlayerHealth : MonoBehaviour
     public void Damage(int health)
     {
         this.health -= health;
-        Debug.Log(this.health);
     }
 
     public void Hurt()

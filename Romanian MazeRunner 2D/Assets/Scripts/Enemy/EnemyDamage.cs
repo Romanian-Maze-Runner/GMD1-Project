@@ -14,11 +14,6 @@ public class EnemyDamage : MonoBehaviour
         pHealth = GameObject.Find("Player").GetComponent<PlayerHealth>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {

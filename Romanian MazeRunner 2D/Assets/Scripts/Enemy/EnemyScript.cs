@@ -10,8 +10,8 @@ public class EnemyScript : MonoBehaviour
 {
     public static event Action<EnemyScript> OnEnemyKilled;
     [SerializeField] float health, maxHealth = 3f;
-
     [SerializeField] float moveSpeed = 5f;
+
     Rigidbody2D rb;
     Transform target;
     Vector2 moveDirection;
